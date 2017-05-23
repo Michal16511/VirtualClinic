@@ -1,0 +1,132 @@
+ 
+            body
+            {
+                background-image:url('../images/doktor.jpg');
+                background-size: cover;
+                
+            }
+            
+            #container
+            {     
+                font-size: 20px;
+                width: 1200px;
+                height: 500px;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            
+            #button
+            {
+                margin-left: 5%;
+                margin-top: 12.4%;
+                float:left;
+                width: 200px;
+                height: 100px;
+                border-radius: 30px;
+                opacity: 0.95;
+                text-align: center;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                color: black;  
+                overflow:hidden;
+                font-size: 30px;
+            }
+            #button2
+            {
+                margin-left: 15.3%;
+                margin-top: 17.4%;
+                float:left;
+                width: 200px;
+                height: 100px;
+                border-radius: 30px;
+                opacity: 0.95;
+                text-align: center;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                color: black; 
+                overflow:hidden;
+                font-size: 30px;
+            }
+            a:link
+            {
+                font-weight: bold;
+                color: #cc0066;
+                text-decoration: none;
+            }
+            a:visited {
+            font-weight: bold;
+            color: #cc0066;
+            background-color: transparent;
+            text-decoration: none;
+            }
+            a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            #container #login
+            {
+                font-weight: bold;
+                color: #cc0066;
+                float:left;
+                margin-left: 13%;
+                margin-top:4.9%;
+                overflow:hidden;
+            }
+            #container #login form
+            {
+                font-size: 15px;
+                padding-left: 40px;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                margin-left: 80px;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-right: auto;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                
+            }
+            #container #login #option
+            {
+                font-size: 23px;
+                padding-left: 40px;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                margin-left: 80px;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-right: auto;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                
+            }
+            a.button {
+                    margin-top: 80px;
+                    margin-left: 80px;
+                    text-align: center;
+                    width: 200px;
+                    background-color:#44c767;
+                    -moz-border-radius:28px;
+                    -webkit-border-radius:28px;
+                    border-radius:28px;
+                    border:1px solid #18ab29;
+                    display:inline-block;
+                    cursor:pointer;
+                    color:#ffffff;
+                    font-family:Arial;
+                    font-size:17px;
+                    padding:16px 31px;
+                    text-decoration:none;
+                    text-shadow:0px 1px 0px #2f6627;
+            }
+             a.button:hover {
+                    background-color:#5cbf2a;
+            }
+             a.button:active {
+                    position:relative;
+                    top:1px;
+            }
